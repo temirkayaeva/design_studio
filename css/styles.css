@@ -343,3 +343,92 @@ body {
     text-align: center;
     color: #000000;
 }
+
+.portfolio {
+    min-height: 631px;
+    background: url(../img/bg.jpg) center center/cover no-repeat;
+}
+
+.portfolio .white {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+
+.works {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.picture {
+    width: 197px;
+    height: 197px;
+    background: #FFFFFF;
+    border-radius: 25px;   
+    margin: 0 13px;
+}
+
+.web_avatars .picture {
+    background: url("https://sun9-43.userapi.com/impg/MYPmM8-8MViSq6JqTJqKNH4TBofI11JaC-FQ4A/6YGBSXKK0Hc.jpg?size=700x600&quality=96&sign=932d8730c7d2666853cdcdd86df9864f&type=album") center center/cover no-repeat;
+}
+
+.mini_avatars .picture {
+    background: url("https://sun9-71.userapi.com/impg/K_Zi_5DMTGfR0LiBETvYnEtFkknH8Pg7e48wNQ/DtruI8mpRWs.jpg?size=1100x1004&quality=96&sign=c003c4306f7b31da333bdb567b2df7a0&type=album") center center/cover no-repeat;
+}
+
+.menus .picture {
+    background: url("https://sun9-28.userapi.com/impg/unZsHGfDMO6IlR-yZipVuc6OZvomq7YEsFkKvQ/iHQiaiIlI5k.jpg?size=1348x1148&quality=96&sign=dd81bd78118992c91fd86c9c2fb900b0&type=album") center center/cover no-repeat;
+}
+
+
+.for_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button_left, .button_right {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3525) 0%, rgba(0, 0, 0, 0.1786) 100%);
+    position: relative;
+    cursor: pointer;
+}
+
+.arrow {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+}
+
+.arrow_left {
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+}
+
+.name_of_work {
+    width: 197px;
+    padding: 0 10px;
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.names_of_works {
+    display: flex;
+    justify-content: space-around;
+    align-self: start;
+
+}
