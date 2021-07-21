@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic-ext" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -23,14 +23,21 @@
                     </li>
                     <li>
                         <div class="link">
-                            <a href="#">Услуги</a>
+                            <a href="#services">Услуги</a>
+                            <div class="underline"></div>
                         </div>
                     </li>
                     <li>
-                        <a href="#">Наши курсы</a>
+                        <div class="link">
+                            <a href="#">Наши курсы</a>
+                            <div class="underline"></div>
+                        </div>
                     </li>
                     <li>
-                        <a href="#">Контакты</a>
+                        <div class="link">
+                            <a href="#">Контакты</a>
+                            <div class="underline"></div>
+                        </div>
                     </li>
                 </ul>
             </nav>
@@ -47,12 +54,65 @@
                 <div class="big_desc">У нас вы сможете заказать нетипичное оформление для вашего сообщества, а еще найти развлечение по душе и научиться делать такие же работы, как мы.</div>
             </div>
             <button class="order">Заказать оформление</button>
-            <a href="#">
+            <a href="#services">
                 <div class="icon">
                     <img src="img/icon.png" alt="">
                 </div>
             </a>
         </div>
     </header>
+
+    <section class="design_types" id="services">
+        <div class="container">
+            <div class="headline">
+                <span class="no_color">Вы можете заказать следующие </span>
+            </div>
+                <div class="with_color">
+                    <span class="color_1">виды</span>
+                    <span class="color_2">дизайна</span>
+            </div>
+            <div class="types">
+                <div class="type first">
+                    <div class="image_name">
+                        <img src="img/case_1.png" alt="">
+                        <div class="price">
+                            <div class="price_text">99₽</div>
+                        </div>
+                    </div>
+                    <div class="name_set">комплект №1</div>
+                    <div class="name_set color">минимальный</div>
+                    <div class="equipment">В комплект входит мини-аватар и шапка</div>
+                    <button class="order_design one">Заказать</button>
+                </div>
+                <div class="type second">
+                    <div class="image_name">
+                        <img src="img/case_2.png" alt="">
+                        <div class="price ">
+                            <div class="price_text">209₽</div>
+                        </div>
+                    </div>
+                    <div class="name_set">комплект №2</div>
+                    <div class="name_set color">стандартный</div>
+                    <div class="equipment">В комплект входит мини-аватар, шапка, новостной баннер, иконки для меню и обложки для альбомов</div>
+                    <button class="order_design two">Заказать</button>
+                </div>
+                <div class="type third">
+                    <div class="image_name">
+                        <img src="img/case_3.png" alt="">
+                        <div class="price ">
+                            <div class="price_text">499₽</div>
+                        </div>
+                    </div>
+                    <div class="name_set">комплект №3</div>
+                    <div class="name_set color">полный</div>
+                    <div class="equipment">В комплект входит мини-аватар, шапка, новостной баннер, иконки для меню, обложки для альбомов, внешнее и внутреннее меню</div>
+                    <button class="order_design three">Заказать</button>
+                </div>
+            </div>
+            <div class="little_text">
+                Выполнение других видов дизайна обсуждается отдельно.
+            </div>
+        </div>
+    </section>
 </body>
 </html>

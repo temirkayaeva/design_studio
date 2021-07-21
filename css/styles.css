@@ -1,3 +1,12 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    width: 1124px;
+    margin: o auto;
+}
+
 .heading {
     min-height: 1095px;
     background: url(../img/bg.jpg) center center/cover no-repeat;
@@ -15,7 +24,6 @@
 }
 
 .navigation li {
-    font-family: Roboto;
     font-weight: 300;
     font-size: 30px;
     line-height: 35px;
@@ -37,7 +45,7 @@
 .nickname {
     display: block;
     margin: 0 auto;
-    margin-top: 53px;
+    margin-top: 48px;
 }
 
 .name {
@@ -125,7 +133,7 @@
 }
 
 .icon {
-    margin: 36px auto 0 auto;
+    margin: 36px auto 116px auto;
     padding-top: 1px;
     display: flex;
     justify-content: center;
@@ -136,11 +144,202 @@
     border-radius: 50%;
 }
 
-.underline {
+.link .underline {
+    opacity: 0;
     margin-top: 2px;
     background-color: #6400E3;
     display: block;
     border-radius: 20px;
     width: auto;
     height: 4px;
+}
+
+.link:hover .underline {
+    opacity: 1;
+    transition:  opacity .3s;
+}
+
+.design_types {
+    min-height: 1030px;
+    background: url(../img/pattern.png) center center/cover no-repeat;
+}
+
+.headline {
+    width: 684px;
+    margin: 0 auto;
+    padding-top: 85px;
+
+}
+
+.no_color {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;;
+    color: #000000;
+
+}
+
+.with_color {
+    width: 332px;
+    margin: 0 auto;
+}
+
+.color_1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #6400E3;
+}
+
+.color_2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 5px;
+    color: #9B00E3;
+}
+
+.types {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image_name {
+    position: relative;
+}
+
+.type {
+    position: relative;
+    height: 577px;
+}
+
+.type .price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 99px;
+    height: 99px;
+    border-radius: 50%;
+    bottom: -4px;
+    left: 49%;
+    transform: translateX(-50%);
+}
+
+.first .price {
+    background: linear-gradient(180deg, #5E00D7 0%, #4B00AB 100%);
+}
+
+.second .price {
+    background: linear-gradient(180deg, #9B00E3 0%, #7C00B6 100%);
+}
+
+.third .price {
+    background: linear-gradient(180deg, #D100E3 0%, #9A00A8 100%);
+}
+
+.first .color {
+    margin-top: 0;
+    color: #6400E3;
+}
+
+.second .color {
+    margin-top: 0;
+    color: #9B00E3;
+}
+
+.third .color {
+    margin-top: 0;
+    color: #D100E3;
+}
+
+
+.price_text {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.order_design {
+    display: block;
+    margin: 0 auto;
+    width: 246px;
+    height: 53px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    border: none;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.25);
+}
+
+.one {
+    background: #6400E3;
+    position: absolute;
+    top: 520px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.two {
+    background: #9B00E3;
+    position: absolute;
+    top: 520px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.three {
+    background: #D100E3;
+    position: absolute;
+    top: 520px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.name_set {
+    margin-top: 18px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.equipment {
+    margin: 0 auto;
+    margin-top: 17px;
+    width: 240px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+
+.little_text {
+    margin-top: 83px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
 }
