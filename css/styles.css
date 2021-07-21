@@ -26,7 +26,6 @@ body {
 .navigation li {
     font-weight: 300;
     font-size: 30px;
-    line-height: 35px;
 }
 
 .navigation li a {
@@ -164,7 +163,7 @@ body {
     background: url(../img/pattern.png) center center/cover no-repeat;
 }
 
-.headline {
+.headline, .header_in_courses {
     width: 684px;
     margin: 0 auto;
     padding-top: 85px;
@@ -205,6 +204,17 @@ body {
     text-transform: uppercase;
     margin-left: 5px;
     color: #9B00E3;
+}
+
+.header_in_courses {
+    width: 255px;
+    margin: 0 auto;
+
+}
+
+.header_in_courses .color_2 {
+    margin: -4px;
+    padding: 0;
 }
 
 .types {
@@ -371,8 +381,12 @@ body {
     margin: 0 13px;
 }
 
-.web_avatars .picture {
+.image {
     background: url("https://sun9-43.userapi.com/impg/MYPmM8-8MViSq6JqTJqKNH4TBofI11JaC-FQ4A/6YGBSXKK0Hc.jpg?size=700x600&quality=96&sign=932d8730c7d2666853cdcdd86df9864f&type=album") center center/cover no-repeat;
+}
+
+.click_on_left_arrow {
+    background: url("https://sun9-36.userapi.com/impg/bpszMiabVUxQD0UMoW4AGNcgO5J9wKEQ5ahccA/NFEjtBL8xA4.jpg?size=750x600&quality=96&sign=b554e74efb756ac24e3fe369cae3b103&type=album") center center/cover no-repeat;
 }
 
 .mini_avatars .picture {
@@ -431,4 +445,206 @@ body {
     justify-content: space-around;
     align-self: start;
 
+}
+
+.courses {
+    min-height: 1030px;
+    background: url("../img/pattern_big.png") center center/cover no-repeat;
+}
+
+.about_courses {
+    margin-top: 32px;
+    padding: 0 85px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.first_course {
+    display: grid;
+    grid-template-columns: 332px 684px;
+    margin-top: 90px;
+}
+
+.second_course {
+    display: grid;
+    grid-template-columns: 684px 332px;
+    margin-top: 90px;
+}
+
+.first_course img {
+    margin: 0 auto;
+}
+
+.second_course img {
+    margin: 0 auto;
+}
+
+.name_of_course {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.second_course .name_of_course {
+    text-align: right;
+}
+
+.subname {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+
+    color: #D100E3;
+}
+.second_course .subname {
+    color: #9B00E3;
+    text-align: right;
+}
+
+.about_course {
+    margin-top: 23px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: justify;
+    color: #000000;
+}
+
+.open_course {
+    display: block;
+    margin: 21px auto 0 auto;
+    width: 253px;
+    height: 42px;
+    border: none;
+    background: #D100E3;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 22px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+.second_course .open_course {
+    background: #9B00E3;
+}
+
+.second_course  {
+    padding: 0 0 0 35px;
+}
+
+.footer {
+    min-height: 200px;
+    background-image: url('../img/bg_footer.png');
+}
+
+.footer .for_flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer_nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.our_group {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.vkontakte {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.icon_vk {
+    margin: 10px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.icon_vk:hover {
+    background: #9B00E3;
+}
+
+.footer_nav {
+    padding-top: 90px;
+}
+
+.footer_nav ul {
+    list-style: none;
+}
+
+.footer_nav li {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.for_margin {
+    margin-top: 17px;
+}
+
+.footer_logo {
+    margin: 0 auto;
+}
+
+.text_footer {
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer_nav a {
+    color: #FFFFFF;
+}
+
+.vk {
+    padding-top: 70px;
+}
+
+.footer_logo {
+    padding-top: 70px;
+}
+
+.footer_logo img {
+    display: block;
+    margin: 0 auto;
 }
