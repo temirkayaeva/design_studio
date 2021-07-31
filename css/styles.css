@@ -4,7 +4,7 @@ body {
 
 .container {
     width: 1124px;
-    margin: o auto;
+    margin: 0   auto;
 }
 
 .heading {
@@ -50,6 +50,7 @@ body {
 .name {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .name .psds {
@@ -389,6 +390,10 @@ body {
     background: url("https://sun9-36.userapi.com/impg/bpszMiabVUxQD0UMoW4AGNcgO5J9wKEQ5ahccA/NFEjtBL8xA4.jpg?size=750x600&quality=96&sign=b554e74efb756ac24e3fe369cae3b103&type=album") center center/cover no-repeat;
 }
 
+.click_on_right_arrow {
+    background: url("https://sun9-70.userapi.com/impg/LHkbBdzumWsGahdBAB0692faFrmx6NFEEPgV7A/WeVJTL9IBLQ.jpg?size=800x700&quality=96&sign=204877721c843b376cf53a005c779d57&type=album") center center/cover no-repeat;
+}
+
 .mini_avatars .picture {
     background: url("https://sun9-71.userapi.com/impg/K_Zi_5DMTGfR0LiBETvYnEtFkknH8Pg7e48wNQ/DtruI8mpRWs.jpg?size=1100x1004&quality=96&sign=c003c4306f7b31da333bdb567b2df7a0&type=album") center center/cover no-repeat;
 }
@@ -647,4 +652,41 @@ body {
 .footer_logo img {
     display: block;
     margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+    .first_course {
+        margin-left: -50px;
+    }
+    .second_course {
+        padding: 0;
+        margin-left: -26px;
+    }
+    .open_course {
+        margin-bottom: 7px;
+    }
+    .text_button_1 {
+        width: 550px;
+    }
+    .text_button_2 {
+        width: 550px;
+    }
+    .second_course .img {
+        margin-left: -100px;
+    }
+    .design_types {
+        margin-top: -120px;
+    }
+
+    .vk {
+        padding-top: 40px;
+    }
+
+    .footer_nav {
+        padding-top: 70px;
+    }
+
+    .footer_logo {
+        padding-top: 40px;
+    }
 }
