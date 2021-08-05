@@ -144,19 +144,17 @@ body {
     border-radius: 50%;
 }
 
+.link {
+    height: 55px;
+}
+
 .link .underline {
-    opacity: 0;
     margin-top: 2px;
     background-color: #6400E3;
     display: block;
     border-radius: 20px;
     width: auto;
     height: 4px;
-}
-
-.link:hover .underline {
-    opacity: 1;
-    transition:  opacity .3s;
 }
 
 .design_types {
