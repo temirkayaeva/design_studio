@@ -19,17 +19,17 @@ allLinks = document.querySelectorAll('.link a');
 
 for (let item of allLinks) {
   item.addEventListener('mouseover', function (e) {
-    console.log(this);
-    console.log(e);
+   // console.log(this);
+  //  console.log(e);
     let underline = e.target.children;
-    console.log(underline);
+   // console.log(underline);
     underline[0].classList.add('underline');
   });
   item.addEventListener('mouseout', function (e) {
-    console.log(this);
-    console.log(e);
+   // console.log(this);
+   // console.log(e);
     let underline = e.target.children;
-    console.log(underline);
+   // console.log(underline);
     underline[0].classList.remove('underline');
   });
 }
